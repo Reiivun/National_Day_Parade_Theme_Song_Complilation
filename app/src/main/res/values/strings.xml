@@ -17,6 +17,7 @@
     <string name="cancel">Cancel</string>
     <string name="delete">Delete</string>
     <string name="update">Update</string>
+    <string name="song_id">Song ID</string>
     <string-array name="years">
         <item>Default</item>
     </string-array>

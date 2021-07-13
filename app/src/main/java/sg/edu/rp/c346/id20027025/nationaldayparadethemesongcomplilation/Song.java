@@ -34,6 +34,22 @@ public class Song implements Serializable {
         return this;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setSingers(String singers) {
+        this.singers = singers;
+    }
+
+    public void setYearReleased(int yearReleased) {
+        this.yearReleased = yearReleased;
+    }
+
+    public void setStars(int stars) {
+        this.stars = stars;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -43,7 +59,7 @@ public class Song implements Serializable {
     }
 
     public int getYear() {
-        return year;
+        return yearReleased;
     }
 
     public int getStars() {
