@@ -22,7 +22,7 @@
         android:id="@+id/etTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enter_song_title_here"/>
+        android:hint="@string/enter_song_title_here"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         android:id="@+id/etSinger"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enter_singer_s_name_s_here"/>
+        android:hint="@string/enter_singer_s_name_s_here"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
         android:id="@+id/etYear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enter_year_of_release_here"/>
+        android:hint="@string/enter_year_of_release_here"/>
 
     <TextView
         android:layout_width="match_parent"

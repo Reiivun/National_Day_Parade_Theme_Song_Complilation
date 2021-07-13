@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class SecondActivity extends AppCompatActivity {
 
     Button btn5Stars;
-    //Spinner spinner;
+    Spinner spinner;
     ListView lv;
     RadioGroup radGrp;
     ArrayList<Song> al;
@@ -33,7 +33,7 @@ public class SecondActivity extends AppCompatActivity {
         setTitle(getTitle().toString() + " ~ " + "Insert Song");
 
         btn5Stars = findViewById(R.id.btn5Stars);
-        //spinner = findViewById(R.id.spinner);
+        spinner = findViewById(R.id.spinner);
         lv = findViewById(R.id.lv);
         radGrp = findViewById(R.id.radGrp);
 
